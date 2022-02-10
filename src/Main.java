@@ -23,7 +23,7 @@ public class Main {
                     total = total + Math.pow(2, i) * Character.getNumericValue(x.charAt(i));
                 }
                 int numberToPrint = (int) total;
-                System.out.println(numberToPrint);
+                System.out.println("In decimals this binary vallue is: " + numberToPrint);
             }
             condition = true;
         } while (condition == true);
